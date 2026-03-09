@@ -10,7 +10,7 @@ Feature: Login
     Then I should be redirected to the My Account page
 
    #Scenario 2: Login with different valid credentials (Data-driven)
-  @datadriven
+  #@datadriven
   Scenario Outline: Login with different valid credentials
     Given I navigate to the application URL
     When I navigate to the Login page from the Home page

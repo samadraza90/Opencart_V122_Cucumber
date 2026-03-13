@@ -24,7 +24,7 @@
 							<include>**/ParallelRunner.java</include>
 						</includes>
 						<parallel>methods</parallel>
-						<threadCount>3</threadCount>
+						<threadCount>4</threadCount>
 						<useUnlimitedThreads>false</useUnlimitedThreads>
 					</configuration>
 				</plugin>

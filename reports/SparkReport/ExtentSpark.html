@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 14, 2026 12:16:29 am</span></a>
+<a href="#"><span class="badge badge-primary">Mar 18, 2026 01:00:02 am</span></a>
 </li>
 </ul>
 </div>
@@ -79,7 +79,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@sanity</a>
+<a class="dropdown-item" href="#">@datadriven</a>
 </ul>
 </li>
 </ul>
@@ -90,75 +90,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">User Registration</p>
-            <p class="text-sm">
-              <span>12:16:31 am</span> / <span>00:00:10:914</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">User Registration</h5>
-<span class='badge badge-success'>03.14.2026 12:16:31 am</span>
-<span class='badge badge-danger'>03.14.2026 12:16:42 am</span>
-<span class='badge badge-default'>00:00:10:914</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Successful user registration</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.CommonSteps.navigateToApplicationURL()">
-                <span>Given I navigate to the application URL</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.RegistrationSteps.navigateToMyAccountAndClickRegister()">
-                <span>When I navigate to My Account and click Register</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.RegistrationSteps.fillInRegistrationDetails()">
-                <span>And I fill in the registration details</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.RegistrationSteps.agreeToPrivacyPolicyAndSubmitForm()">
-                <span>And I agree to the Privacy Policy and submit the registration form</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.RegistrationSteps.shouldSeeConfirmationMessage(java.lang.String)">
-                <span>Then I should see the confirmation message "Your Account Has Been Created!"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
             <p class="name">Login</p>
             <p class="text-sm">
-              <span>12:16:31 am</span> / <span>00:00:09:371</span>
+              <span>1:00:03 am</span> / <span>00:00:33:809</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -167,10 +101,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Login</h5>
-<span class='badge badge-success'>03.14.2026 12:16:31 am</span>
-<span class='badge badge-danger'>03.14.2026 12:16:40 am</span>
-<span class='badge badge-default'>00:00:09:371</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-success'>03.18.2026 1:00:03 am</span>
+<span class='badge badge-danger'>03.18.2026 1:00:37 am</span>
+<span class='badge badge-default'>00:00:33:809</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -181,32 +115,155 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven from Excel</div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.CommonSteps.navigateToApplicationURL()">
-                <span>Given I navigate to the application URL</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven from Excel</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I navigate to the application URL</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginSteps.navigateToLoginPage()">
-                <span>When I navigate to the Login page from the Home page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I navigate to the Login page from the Home page</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginSteps.enterValidCredentials()">
-                <span>And I enter valid login credentials</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter different login credentials with "3"</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginSteps.verifyMyAccountPage()">
-                <span>Then I should be redirected to the My Account page</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I should be redirected to the My Account page if data is valid in "3"</span>
       <div>
       </div>
+                  </div>
               </div>
-          </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven from Excel</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I navigate to the application URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I navigate to the Login page from the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter different login credentials with "2"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I should be redirected to the My Account page if data is valid in "2"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="5"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven from Excel</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I navigate to the application URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I navigate to the Login page from the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter different login credentials with "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I should be redirected to the My Account page if data is valid in "1"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven from Excel</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I navigate to the application URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I navigate to the Login page from the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter different login credentials with "5"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I should be redirected to the My Account page if data is valid in "5"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven from Excel</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I navigate to the application URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I navigate to the Login page from the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter different login credentials with "4"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I should be redirected to the My Account page if data is valid in "4"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
 </div>
@@ -232,15 +289,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
+<span class='badge log pass-bg'>5</span>
 </span>
-<p class="name">@sanity</p>
-<p class="duration text-sm">2 tests</p>
+<p class="name">@datadriven</p>
+<p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@sanity</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
+<h4>@datadriven</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -253,21 +310,51 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:16:31 am</td>
+<td>01:00:03 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Successful user registration</a>
+<a href="#" class="linked" test-id='1' id='3'>Login Data Driven from Excel</a>
 <div class="">
-<span class="badge badge-default">User Registration.Successful user registration</span>
+<span class="badge badge-default">Login.Login Data Driven from Excel</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:16:31 am</td>
+<td>01:00:03 am</td>
 <td>
-<a href="#" class="linked" test-id='3' id='4'>Login with valid credentials</a>
+<a href="#" class="linked" test-id='1' id='4'>Login Data Driven from Excel</a>
 <div class="">
-<span class="badge badge-default">Login.Login with valid credentials</span>
+<span class="badge badge-default">Login.Login Data Driven from Excel</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:00:04 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>Login Data Driven from Excel</a>
+<div class="">
+<span class="badge badge-default">Login.Login Data Driven from Excel</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:00:04 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>Login Data Driven from Excel</a>
+<div class="">
+<span class="badge badge-default">Login.Login Data Driven from Excel</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:00:04 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>Login Data Driven from Excel</a>
+<div class="">
+<span class="badge badge-default">Login.Login Data Driven from Excel</span>
 </div>
 </td>
 </tr>
@@ -288,19 +375,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 14, 2026 12:16:29 am</h3>
+<h3>Mar 18, 2026 01:00:02 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 14, 2026 12:16:42 am</h3>
+<h3>Mar 18, 2026 01:00:37 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -323,7 +410,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>2</b> features passed
+<b>1</b> features passed
 </small>
 </div>
 <div>
@@ -345,7 +432,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>2</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>5</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -365,7 +452,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>9</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>20</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -384,7 +471,7 @@
 </div></div>
 <script>
 var timeline = {
-"User Registration":10.914,"Login":9.371
+"Login":33.809
 };
 </script>
 <div class="row">
@@ -394,8 +481,8 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@sanity</td>
-<td>2</td>
+<td>@datadriven</td>
+<td>5</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -410,18 +497,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
+passParent: 1,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 2,
+passChild: 5,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 9,
+passGrandChild: 20,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
